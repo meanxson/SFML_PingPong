@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SFML_PingPong"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Engine\;CMake Files\Game\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/Projects/C++/Fun/sfml/SFML_PingPong/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/Projects/C++/Fun/sfml/SFML_PingPong/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/Projects/C++/Fun/sfml/SFML_PingPong/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Engine">
+				<Option output="F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Engine/libEngine.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Engine"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/includes"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Engine/Makefile&quot;  VERBOSE=1 Engine"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Engine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Engine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Engine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Engine/fast">
+				<Option output="F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Engine/libEngine.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Engine"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/includes"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Engine/Makefile&quot;  VERBOSE=1 Engine/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Engine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Engine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Engine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PingPongEditor">
+				<Option output="F:/Projects/C++/Fun/sfml/SFML_PingPong/build/bin/PingPongEditor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/includes"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Game/Makefile&quot;  VERBOSE=1 PingPongEditor"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Game/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Game/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Game/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PingPongEditor/fast">
+				<Option output="F:/Projects/C++/Fun/sfml/SFML_PingPong/build/bin/PingPongEditor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/includes"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Game/Makefile&quot;  VERBOSE=1 PingPongEditor/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Game/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Game/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Game/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/includes/EngineCore/Utils/test.hpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/src/EngineCore/Utils/test.cpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/Fun/sfml/SFML_PingPong/Game/src/main.cpp">
+			<Option target="PingPongEditor"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/Fun/sfml/SFML_PingPong/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Engine\"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/Fun/sfml/SFML_PingPong/Game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Game\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
