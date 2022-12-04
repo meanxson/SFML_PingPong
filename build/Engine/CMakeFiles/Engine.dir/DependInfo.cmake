@@ -8,13 +8,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/src/EngineCore/Maths/Vector2.cpp" "F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector2.cpp.obj"
+  "F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/src/EngineCore/Maths/Vector3.cpp" "F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector3.cpp.obj"
   "F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/src/EngineCore/Utils/test.cpp" "F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Engine/CMakeFiles/Engine.dir/src/EngineCore/Utils/test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "SFML_STATIC"
+  )
+
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Engine/includes"
+  "C:/Libraries/SFML/include"
   )
 
 # The set of dependency files which are needed:

@@ -129,6 +129,54 @@ Engine/fast:
 	cd /d F:\Projects\C++\Fun\sfml\SFML_PingPong\build && $(MAKE) $(MAKESILENT) -f Engine\CMakeFiles\Engine.dir\build.make Engine/CMakeFiles/Engine.dir/build
 .PHONY : Engine/fast
 
+src/EngineCore/Maths/Vector2.obj: src/EngineCore/Maths/Vector2.cpp.obj
+.PHONY : src/EngineCore/Maths/Vector2.obj
+
+# target to build an object file
+src/EngineCore/Maths/Vector2.cpp.obj:
+	cd /d F:\Projects\C++\Fun\sfml\SFML_PingPong\build && $(MAKE) $(MAKESILENT) -f Engine\CMakeFiles\Engine.dir\build.make Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector2.cpp.obj
+.PHONY : src/EngineCore/Maths/Vector2.cpp.obj
+
+src/EngineCore/Maths/Vector2.i: src/EngineCore/Maths/Vector2.cpp.i
+.PHONY : src/EngineCore/Maths/Vector2.i
+
+# target to preprocess a source file
+src/EngineCore/Maths/Vector2.cpp.i:
+	cd /d F:\Projects\C++\Fun\sfml\SFML_PingPong\build && $(MAKE) $(MAKESILENT) -f Engine\CMakeFiles\Engine.dir\build.make Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector2.cpp.i
+.PHONY : src/EngineCore/Maths/Vector2.cpp.i
+
+src/EngineCore/Maths/Vector2.s: src/EngineCore/Maths/Vector2.cpp.s
+.PHONY : src/EngineCore/Maths/Vector2.s
+
+# target to generate assembly for a file
+src/EngineCore/Maths/Vector2.cpp.s:
+	cd /d F:\Projects\C++\Fun\sfml\SFML_PingPong\build && $(MAKE) $(MAKESILENT) -f Engine\CMakeFiles\Engine.dir\build.make Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector2.cpp.s
+.PHONY : src/EngineCore/Maths/Vector2.cpp.s
+
+src/EngineCore/Maths/Vector3.obj: src/EngineCore/Maths/Vector3.cpp.obj
+.PHONY : src/EngineCore/Maths/Vector3.obj
+
+# target to build an object file
+src/EngineCore/Maths/Vector3.cpp.obj:
+	cd /d F:\Projects\C++\Fun\sfml\SFML_PingPong\build && $(MAKE) $(MAKESILENT) -f Engine\CMakeFiles\Engine.dir\build.make Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector3.cpp.obj
+.PHONY : src/EngineCore/Maths/Vector3.cpp.obj
+
+src/EngineCore/Maths/Vector3.i: src/EngineCore/Maths/Vector3.cpp.i
+.PHONY : src/EngineCore/Maths/Vector3.i
+
+# target to preprocess a source file
+src/EngineCore/Maths/Vector3.cpp.i:
+	cd /d F:\Projects\C++\Fun\sfml\SFML_PingPong\build && $(MAKE) $(MAKESILENT) -f Engine\CMakeFiles\Engine.dir\build.make Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector3.cpp.i
+.PHONY : src/EngineCore/Maths/Vector3.cpp.i
+
+src/EngineCore/Maths/Vector3.s: src/EngineCore/Maths/Vector3.cpp.s
+.PHONY : src/EngineCore/Maths/Vector3.s
+
+# target to generate assembly for a file
+src/EngineCore/Maths/Vector3.cpp.s:
+	cd /d F:\Projects\C++\Fun\sfml\SFML_PingPong\build && $(MAKE) $(MAKESILENT) -f Engine\CMakeFiles\Engine.dir\build.make Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector3.cpp.s
+.PHONY : src/EngineCore/Maths/Vector3.cpp.s
+
 src/EngineCore/Utils/test.obj: src/EngineCore/Utils/test.cpp.obj
 .PHONY : src/EngineCore/Utils/test.obj
 
@@ -162,6 +210,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Engine
+	@echo ... src/EngineCore/Maths/Vector2.obj
+	@echo ... src/EngineCore/Maths/Vector2.i
+	@echo ... src/EngineCore/Maths/Vector2.s
+	@echo ... src/EngineCore/Maths/Vector3.obj
+	@echo ... src/EngineCore/Maths/Vector3.i
+	@echo ... src/EngineCore/Maths/Vector3.s
 	@echo ... src/EngineCore/Utils/test.obj
 	@echo ... src/EngineCore/Utils/test.i
 	@echo ... src/EngineCore/Utils/test.s

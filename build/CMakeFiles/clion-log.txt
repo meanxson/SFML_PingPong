@@ -1,5 +1,6 @@
 "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" F:\Projects\C++\Fun\sfml\SFML_PingPong
 generator is set to MinGW Makefiles 
+-- Found SFML 2.5.1 in C:/Libraries/SFML/lib/cmake/SFML
 -- Configuring done
 -- Generating done
 -- Build files have been written to: F:/Projects/C++/Fun/sfml/SFML_PingPong/build

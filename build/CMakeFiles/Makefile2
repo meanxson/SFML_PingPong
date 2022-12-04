@@ -113,12 +113,12 @@ Game/clean: Game/CMakeFiles/PingPongEditor.dir/clean
 Engine/CMakeFiles/Engine.dir/all:
 	$(MAKE) $(MAKESILENT) -f Engine\CMakeFiles\Engine.dir\build.make Engine/CMakeFiles/Engine.dir/depend
 	$(MAKE) $(MAKESILENT) -f Engine\CMakeFiles\Engine.dir\build.make Engine/CMakeFiles/Engine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\Projects\C++\Fun\sfml\SFML_PingPong\build\CMakeFiles --progress-num=1,2 "Built target Engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\Projects\C++\Fun\sfml\SFML_PingPong\build\CMakeFiles --progress-num=1,2,3,4 "Built target Engine"
 .PHONY : Engine/CMakeFiles/Engine.dir/all
 
 # Build rule for subdir invocation for target.
 Engine/CMakeFiles/Engine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\Fun\sfml\SFML_PingPong\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\Fun\sfml\SFML_PingPong\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Engine/CMakeFiles/Engine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\Fun\sfml\SFML_PingPong\build\CMakeFiles 0
 .PHONY : Engine/CMakeFiles/Engine.dir/rule
@@ -139,12 +139,12 @@ Engine/CMakeFiles/Engine.dir/clean:
 Game/CMakeFiles/PingPongEditor.dir/all: Engine/CMakeFiles/Engine.dir/all
 	$(MAKE) $(MAKESILENT) -f Game\CMakeFiles\PingPongEditor.dir\build.make Game/CMakeFiles/PingPongEditor.dir/depend
 	$(MAKE) $(MAKESILENT) -f Game\CMakeFiles\PingPongEditor.dir\build.make Game/CMakeFiles/PingPongEditor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\Projects\C++\Fun\sfml\SFML_PingPong\build\CMakeFiles --progress-num=3,4 "Built target PingPongEditor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\Projects\C++\Fun\sfml\SFML_PingPong\build\CMakeFiles --progress-num=5,6 "Built target PingPongEditor"
 .PHONY : Game/CMakeFiles/PingPongEditor.dir/all
 
 # Build rule for subdir invocation for target.
 Game/CMakeFiles/PingPongEditor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\Fun\sfml\SFML_PingPong\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\Fun\sfml\SFML_PingPong\build\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Game/CMakeFiles/PingPongEditor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\Fun\sfml\SFML_PingPong\build\CMakeFiles 0
 .PHONY : Game/CMakeFiles/PingPongEditor.dir/rule

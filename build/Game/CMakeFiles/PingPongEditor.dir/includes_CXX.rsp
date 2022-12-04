@@ -1,1 +1,1 @@
--IF:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/includes
+-IF:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/includes -isystem C:/Libraries/SFML/include

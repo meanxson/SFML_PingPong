@@ -79,17 +79,49 @@ Engine/CMakeFiles/Engine.dir/src/EngineCore/Utils/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Engine.dir/src/EngineCore/Utils/test.cpp.s"
 	cd /d F:\Projects\C++\Fun\sfml\SFML_PingPong\build\Engine && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Projects\C++\Fun\sfml\SFML_PingPong\Engine\src\EngineCore\Utils\test.cpp -o CMakeFiles\Engine.dir\src\EngineCore\Utils\test.cpp.s
 
+Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector2.cpp.obj: Engine/CMakeFiles/Engine.dir/flags.make
+Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector2.cpp.obj: Engine/CMakeFiles/Engine.dir/includes_CXX.rsp
+Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector2.cpp.obj: ../Engine/src/EngineCore/Maths/Vector2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Projects\C++\Fun\sfml\SFML_PingPong\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector2.cpp.obj"
+	cd /d F:\Projects\C++\Fun\sfml\SFML_PingPong\build\Engine && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Engine.dir\src\EngineCore\Maths\Vector2.cpp.obj -c F:\Projects\C++\Fun\sfml\SFML_PingPong\Engine\src\EngineCore\Maths\Vector2.cpp
+
+Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector2.cpp.i"
+	cd /d F:\Projects\C++\Fun\sfml\SFML_PingPong\build\Engine && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Projects\C++\Fun\sfml\SFML_PingPong\Engine\src\EngineCore\Maths\Vector2.cpp > CMakeFiles\Engine.dir\src\EngineCore\Maths\Vector2.cpp.i
+
+Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector2.cpp.s"
+	cd /d F:\Projects\C++\Fun\sfml\SFML_PingPong\build\Engine && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Projects\C++\Fun\sfml\SFML_PingPong\Engine\src\EngineCore\Maths\Vector2.cpp -o CMakeFiles\Engine.dir\src\EngineCore\Maths\Vector2.cpp.s
+
+Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector3.cpp.obj: Engine/CMakeFiles/Engine.dir/flags.make
+Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector3.cpp.obj: Engine/CMakeFiles/Engine.dir/includes_CXX.rsp
+Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector3.cpp.obj: ../Engine/src/EngineCore/Maths/Vector3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Projects\C++\Fun\sfml\SFML_PingPong\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector3.cpp.obj"
+	cd /d F:\Projects\C++\Fun\sfml\SFML_PingPong\build\Engine && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Engine.dir\src\EngineCore\Maths\Vector3.cpp.obj -c F:\Projects\C++\Fun\sfml\SFML_PingPong\Engine\src\EngineCore\Maths\Vector3.cpp
+
+Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector3.cpp.i"
+	cd /d F:\Projects\C++\Fun\sfml\SFML_PingPong\build\Engine && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Projects\C++\Fun\sfml\SFML_PingPong\Engine\src\EngineCore\Maths\Vector3.cpp > CMakeFiles\Engine.dir\src\EngineCore\Maths\Vector3.cpp.i
+
+Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector3.cpp.s"
+	cd /d F:\Projects\C++\Fun\sfml\SFML_PingPong\build\Engine && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Projects\C++\Fun\sfml\SFML_PingPong\Engine\src\EngineCore\Maths\Vector3.cpp -o CMakeFiles\Engine.dir\src\EngineCore\Maths\Vector3.cpp.s
+
 # Object files for target Engine
 Engine_OBJECTS = \
-"CMakeFiles/Engine.dir/src/EngineCore/Utils/test.cpp.obj"
+"CMakeFiles/Engine.dir/src/EngineCore/Utils/test.cpp.obj" \
+"CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector2.cpp.obj" \
+"CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector3.cpp.obj"
 
 # External object files for target Engine
 Engine_EXTERNAL_OBJECTS =
 
 Engine/libEngine.a: Engine/CMakeFiles/Engine.dir/src/EngineCore/Utils/test.cpp.obj
+Engine/libEngine.a: Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector2.cpp.obj
+Engine/libEngine.a: Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector3.cpp.obj
 Engine/libEngine.a: Engine/CMakeFiles/Engine.dir/build.make
 Engine/libEngine.a: Engine/CMakeFiles/Engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Projects\C++\Fun\sfml\SFML_PingPong\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libEngine.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Projects\C++\Fun\sfml\SFML_PingPong\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libEngine.a"
 	cd /d F:\Projects\C++\Fun\sfml\SFML_PingPong\build\Engine && $(CMAKE_COMMAND) -P CMakeFiles\Engine.dir\cmake_clean_target.cmake
 	cd /d F:\Projects\C++\Fun\sfml\SFML_PingPong\build\Engine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Engine.dir\link.txt --verbose=$(VERBOSE)
 
