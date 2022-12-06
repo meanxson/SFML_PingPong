@@ -8,8 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/src/EngineCore/IO/Keyboard.cpp" "F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Engine/CMakeFiles/Engine.dir/src/EngineCore/IO/Keyboard.cpp.obj"
+  "F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/src/EngineCore/IO/Screen.cpp" "F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Engine/CMakeFiles/Engine.dir/src/EngineCore/IO/Screen.cpp.obj"
   "F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/src/EngineCore/Maths/Vector2.cpp" "F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector2.cpp.obj"
-  "F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/src/EngineCore/Maths/Vector3.cpp" "F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Engine/CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector3.cpp.obj"
+  "F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/src/EngineCore/Utils/ResourceManager.cpp" "F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Engine/CMakeFiles/Engine.dir/src/EngineCore/Utils/ResourceManager.cpp.obj"
   "F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/src/EngineCore/Utils/test.cpp" "F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Engine/CMakeFiles/Engine.dir/src/EngineCore/Utils/test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

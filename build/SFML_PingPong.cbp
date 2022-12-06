@@ -79,11 +79,7 @@
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DSFML_STATIC"/>
-					<Add directory="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/includes"/>
-					<Add directory="C:/Libraries/SFML/include"/>
-				</Compiler>
+				<Compiler/>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Game/Makefile&quot;  VERBOSE=1 PingPongEditor"/>
 					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Game/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
@@ -97,11 +93,7 @@
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DSFML_STATIC"/>
-					<Add directory="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/includes"/>
-					<Add directory="C:/Libraries/SFML/include"/>
-				</Compiler>
+				<Compiler/>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Game/Makefile&quot;  VERBOSE=1 PingPongEditor/fast"/>
 					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Fun/sfml/SFML_PingPong/build/Game/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
@@ -110,19 +102,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/includes/EngineCore/IO/Keyboard.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/includes/EngineCore/IO/Screen.h">
+			<Option target="Engine"/>
+		</Unit>
 		<Unit filename="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/includes/EngineCore/Maths/Vector2.h">
 			<Option target="Engine"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/includes/EngineCore/Maths/Vector3.h">
+		<Unit filename="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/includes/EngineCore/Utils/Constants.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/includes/EngineCore/Utils/Log.hpp">
 			<Option target="Engine"/>
 		</Unit>
 		<Unit filename="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/includes/EngineCore/Utils/test.hpp">
 			<Option target="Engine"/>
 		</Unit>
+		<Unit filename="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/src/EngineCore/IO/Keyboard.cpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/src/EngineCore/IO/Screen.cpp">
+			<Option target="Engine"/>
+		</Unit>
 		<Unit filename="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/src/EngineCore/Maths/Vector2.cpp">
 			<Option target="Engine"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/src/EngineCore/Maths/Vector3.cpp">
+		<Unit filename="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/src/EngineCore/Utils/ResourceManager.cpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/src/EngineCore/Utils/ResourceManager.h">
 			<Option target="Engine"/>
 		</Unit>
 		<Unit filename="F:/Projects/C++/Fun/sfml/SFML_PingPong/Engine/src/EngineCore/Utils/test.cpp">

@@ -1,16 +1,17 @@
 cmake_minimum_required(VERSION 3.12)
 
 set(PROJECT_NAME Engine)
-set(CMAKE_C_COMPILER "gcc")
-set(CMAKE_CXX_COMPILER "g++")
 
 add_library(${PROJECT_NAME} STATIC 
 		    src/EngineCore/Utils/test.cpp
 			includes/EngineCore/Utils/test.hpp
-		src/EngineCore/Maths/Vector2.cpp includes/EngineCore/Maths/Vector2.h src/EngineCore/Maths/Vector3.cpp includes/EngineCore/Maths/Vector3.h)
+		src/EngineCore/Maths/Vector2.cpp includes/EngineCore/Maths/Vector2.h includes/EngineCore/Utils/Constants.h src/EngineCore/IO/Keyboard.cpp includes/EngineCore/IO/Keyboard.h src/EngineCore/IO/Screen.cpp includes/EngineCore/IO/Screen.h includes/EngineCore/Utils/Log.hpp src/EngineCore/Utils/ResourceManager.cpp includes/EngineCore/Utils/ResourceManager.h)
 
 target_include_directories(${PROJECT_NAME} PUBLIC includes)
 target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_17)
+
+#add_subdirectory(../external/spdlog ${CMAKE_CURRENT_BINARY_DIR}/spdlog)
+#target_link_libraries(${PROJECT_NAME} PRIVATE spdlog)
 
 if(APPLE OR UNIX)
 	include_directories(/usr/local/include)

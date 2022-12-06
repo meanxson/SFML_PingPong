@@ -66,7 +66,6 @@ include Game/CMakeFiles/PingPongEditor.dir/progress.make
 include Game/CMakeFiles/PingPongEditor.dir/flags.make
 
 Game/CMakeFiles/PingPongEditor.dir/src/main.cpp.obj: Game/CMakeFiles/PingPongEditor.dir/flags.make
-Game/CMakeFiles/PingPongEditor.dir/src/main.cpp.obj: Game/CMakeFiles/PingPongEditor.dir/includes_CXX.rsp
 Game/CMakeFiles/PingPongEditor.dir/src/main.cpp.obj: ../Game/src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Projects\C++\Fun\sfml\SFML_PingPong\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Game/CMakeFiles/PingPongEditor.dir/src/main.cpp.obj"
 	cd /d F:\Projects\C++\Fun\sfml\SFML_PingPong\build\Game && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PingPongEditor.dir\src\main.cpp.obj -c F:\Projects\C++\Fun\sfml\SFML_PingPong\Game\src\main.cpp
@@ -88,19 +87,6 @@ PingPongEditor_EXTERNAL_OBJECTS =
 
 bin/PingPongEditor.exe: Game/CMakeFiles/PingPongEditor.dir/src/main.cpp.obj
 bin/PingPongEditor.exe: Game/CMakeFiles/PingPongEditor.dir/build.make
-bin/PingPongEditor.exe: Engine/libEngine.a
-bin/PingPongEditor.exe: C:/Libraries/SFML/lib/libsfml-audio-s-d.a
-bin/PingPongEditor.exe: C:/Libraries/SFML/lib/libopenal32.a
-bin/PingPongEditor.exe: C:/Libraries/SFML/lib/libvorbisfile.a
-bin/PingPongEditor.exe: C:/Libraries/SFML/lib/libvorbisenc.a
-bin/PingPongEditor.exe: C:/Libraries/SFML/lib/libvorbis.a
-bin/PingPongEditor.exe: C:/Libraries/SFML/lib/libogg.a
-bin/PingPongEditor.exe: C:/Libraries/SFML/lib/libFLAC.a
-bin/PingPongEditor.exe: C:/Libraries/SFML/lib/libsfml-network-s-d.a
-bin/PingPongEditor.exe: C:/Libraries/SFML/lib/libsfml-graphics-s-d.a
-bin/PingPongEditor.exe: C:/Libraries/SFML/lib/libfreetype.a
-bin/PingPongEditor.exe: C:/Libraries/SFML/lib/libsfml-window-s-d.a
-bin/PingPongEditor.exe: C:/Libraries/SFML/lib/libsfml-system-s-d.a
 bin/PingPongEditor.exe: Game/CMakeFiles/PingPongEditor.dir/linklibs.rsp
 bin/PingPongEditor.exe: Game/CMakeFiles/PingPongEditor.dir/objects1.rsp
 bin/PingPongEditor.exe: Game/CMakeFiles/PingPongEditor.dir/link.txt

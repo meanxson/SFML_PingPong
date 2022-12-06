@@ -1,2 +1,2 @@
-C:\mingw64\bin\ar.exe qc libEngine.a CMakeFiles/Engine.dir/src/EngineCore/Utils/test.cpp.obj CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector2.cpp.obj CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector3.cpp.obj
+C:\mingw64\bin\ar.exe qc libEngine.a CMakeFiles/Engine.dir/src/EngineCore/Utils/test.cpp.obj CMakeFiles/Engine.dir/src/EngineCore/Maths/Vector2.cpp.obj CMakeFiles/Engine.dir/src/EngineCore/IO/Keyboard.cpp.obj CMakeFiles/Engine.dir/src/EngineCore/IO/Screen.cpp.obj CMakeFiles/Engine.dir/src/EngineCore/Utils/ResourceManager.cpp.obj
 C:\mingw64\bin\ranlib.exe libEngine.a
